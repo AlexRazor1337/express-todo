@@ -1,0 +1,29 @@
+{
+  "name": "express-rest-auth",
+  "version": "1.0.0",
+  "description": "Express passport authentication with sqlite3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "nodemon ./bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-sqlite3": "^0.9.13",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "mkdirp": "^3.0.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "pluralize": "^8.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
