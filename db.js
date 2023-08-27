@@ -13,7 +13,7 @@ db.serialize(() => {
    db.run('CREATE TABLE IF NOT EXISTS exercises (id INTEGER PRIMARY KEY, owner_id INTEGER NOT NULL, title TEXT NOT NULL, completed INTEGER)');
    
    const salt = crypto.randomBytes(16);
-   db.run('INSERT OR IGNORE INTO users (username, password, salt, email, email_verified) VALUES (?, ?, ?, ?, ?)', ['admin', crypto.pbkdf2Sync('admin', salt, 100000, 32, 'sha512'), salt, 'email@test.com@', 1]);
+   db.run('INSERT OR IGNORE INTO users (username, password, salt, email, email_verified) VALUES (?, ?, ?, ?, ?)', ['admin', crypto.pbkdf2Sync('admin', salt, 310000, 32, 'sha512'), salt, 'email@test.com@', 1]);
 });
 
 export default db;
