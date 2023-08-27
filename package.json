@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "connect-ensure-login": "^0.1.1",
     "connect-sqlite3": "^0.9.13",
     "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
@@ -23,6 +24,7 @@
     "mkdirp": "^3.0.1",
     "morgan": "^1.10.0",
     "passport": "^0.6.0",
+    "passport-google-oidc": "^0.1.0",
     "passport-local": "^1.0.0",
     "pluralize": "^8.0.0",
     "sqlite3": "^5.1.6"
